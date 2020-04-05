@@ -18,7 +18,7 @@ routes.post('/incidents', IncidentsController.create);
 //create incidents
 routes.get('/i/listar', IncidentsController.index);
 //delete incidents
-routes.get('/i/delete/:id', IncidentsController.delete);
+routes.delete('/delete/:id', IncidentsController.delete);
 //profile 
 routes.get('/profile', ProrfileController.index);
 
